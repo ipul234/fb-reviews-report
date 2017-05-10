@@ -3,7 +3,7 @@
         "average_rating": 3.7,
         "reviews": 19,
         "common_nouns": [
-            { // no. of appearances in ratings per date
+            {
                 "noun": "word",
                 "times": 4
             }
@@ -26,7 +26,7 @@
                 "times": 7
             }
         ],
-        "contextual_analysis": { // insights by industry
+        "contextual_analysis": {
             "customer_service": 3.7,
             "product_quality": 4.8,
             "taste": 2.4,

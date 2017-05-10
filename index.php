@@ -1,5 +1,7 @@
 <?php 
 
+putenv('FB_LANG=es_MX');
+
 const PAGE_ID = '1376286872412138'; // rappimx
 
 if (file_exists('vendor/autoload.php')) {
