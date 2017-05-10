@@ -1,0 +1,43 @@
+{
+    "2017-04-17": {
+        "average_rating": 3.7,
+        "reviews": 19,
+        "common_nouns": [
+            { // no. of appearances in ratings per date
+                "noun": "word",
+                "times": 4
+            }
+        ],
+        "common_adjectives": [
+            {
+                "adjective": "great",
+                "times": 2
+            }
+        ],
+        "common_adverbs": [
+            {
+                "adverb": "rápido",
+                "times": 5
+            }
+        ],
+        "common_phrases": [
+            {
+                "phrase": "El servicio es pésimo",
+                "times": 7
+            }
+        ],
+        "contextual_analysis": { // insights by industry
+            "customer_service": 3.7,
+            "product_quality": 4.8,
+            "taste": 2.4,
+            "appearance": 4.8,
+            "place": 3.6,
+            "experience": 2.5
+        },
+        "mood_analysis": {
+            "happiness": 3.4,
+            "disappointment": 2.1,
+            "anger": 4.7
+        }
+    }
+}

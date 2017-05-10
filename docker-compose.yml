@@ -1,0 +1,11 @@
+fbanalysis:
+  image: webdevops/php-nginx:alpine-3-php7
+  container_name: fbanalysis
+  volumes:
+    - .:/app
+  environment:
+    - WEB_DOCUMENT_INDEX=index.php
+    - WEB_DOCUMENT_ROOT=/app/.
+    - APPLICATION_PATH=/app
+  ports:
+    - "3001:80"
