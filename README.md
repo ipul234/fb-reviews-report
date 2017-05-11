@@ -2,7 +2,7 @@
 
 ### Scope
 
-(88% Of Consumers Trust Online Reviews As Much As Personal Recommendations)[http://searchengineland.com/88-consumers-trust-online-reviews-much-personal-recommendations-195803]
+[88% Of Consumers Trust Online Reviews As Much As Personal Recommendations](http://searchengineland.com/88-consumers-trust-online-reviews-much-personal-recommendations-195803)
 
 This feature is trying to aid Facebook page administrators to get more valuable insights from the ratings given by the reviewers, by letting them interact in a **review bar graph** where `x = review_date` and `y = rating_average_per_date`. 
 
