@@ -45,20 +45,30 @@ class FBRatingsAnalysis
     public function analyse(): array
     {
         $result = array_map(function($rating){
-            return $rating
-                    ->setDate()
-                    ->clean()
-                    ->calcAverage()
-                    ->countReviews()
-                    ->getCommonNouns()
-                    ->getCommonAdjectives()
-                    ->getCommonAdverbs()
-                    ->getCommonPhrases()
-                    ->makeContextualAnalysis()
-                    ->makeMoodAnalysis();
+            return $this->setRatingInTurn($rating)
+                        ->clean()
+                        ->calcAverage()
+                        ->countReviews()
+                        ->getCommonNouns()
+                        ->getCommonAdjectives()
+                        ->getCommonAdverbs()
+                        ->getCommonPhrases()
+                        ->makeContextualAnalysis()
+                        ->makeMoodAnalysis();
         }, $this->data);
 
         return $result;
+    }
+
+    public function setRatingInTurn(Array $rating)
+    {
+        $date = $rating['created_at'];
+        
+        $ratingInTurn[$date] = [];
+
+        $this->ratingInTurn = $ratingInTurn;
+
+        return $this;
     }
 
     protected function present(Array $result)
