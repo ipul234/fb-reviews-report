@@ -1,6 +1,6 @@
 <?php 
 
-namespace Source\Analysis;
+namespace FBReviewsReport\Analysis;
 
 use Facebook\GraphNodes\GraphNode;
 

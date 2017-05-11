@@ -1,6 +1,6 @@
 <?php 
 
-namespace Source\Auth;
+namespace FBReviewsReport\Auth;
 
 class FBLogin
 {

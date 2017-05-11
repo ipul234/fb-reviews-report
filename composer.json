@@ -6,7 +6,7 @@
     "autoload": {
         "classmap": ["./src"],
         "psr-4": {
-            "Source\\": "src/"
+            "FBReviewsReport\\": "src/"
         }
     },
     "authors": [
